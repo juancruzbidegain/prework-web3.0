@@ -1,0 +1,329 @@
+{
+  "contractName": "HelloBlockchain",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "sayHi",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"sayHi\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/hello-blockchain.sol\":\"HelloBlockchain\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/hello-blockchain.sol\":{\"keccak256\":\"0x0ab5a20c8058164b784f20a6d70b2697f92dd887646f9e68692103b4c916d0d3\",\"urls\":[\"bzz-raw://2409d0e36e611d062743c1748f0f63e28cb7db69d51fd3e78e1d43fd5b0a4df2\",\"dweb:/ipfs/QmXzbwHHzcGV3d7ww73pcjwaN5kD6djz5rxPLU3QrBrST3\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061011d806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80630c49c36c14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280601381526020017f2148656c6c6f2c20626c6f636b636861696e210000000000000000000000000081525090509056fea265627a7a723158208ccc193e07d5806bf30181eda96ec98b053a2b174021feb7ab5fd2d91f8eb8b364736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80630c49c36c14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280601381526020017f2148656c6c6f2c20626c6f636b636861696e210000000000000000000000000081525090509056fea265627a7a723158208ccc193e07d5806bf30181eda96ec98b053a2b174021feb7ab5fd2d91f8eb8b364736f6c63430005100032",
+  "sourceMap": "75:143:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;75:143:1;;;;;;;",
+  "deployedSourceMap": "75:143:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;75:143:1;;;;;;;;;;;;;;;;;;;113:100;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;113:100:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;151:13;177:28;;;;;;;;;;;;;;;;;;;113:100;:::o",
+  "source": "// SPDX-License-Identifier: GPL-3.0\r\n\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract HelloBlockchain {\r\n    \r\n    function sayHi() public pure returns (string memory) {\r\n        return \"!Hello, blockchain!\";\r\n    }\r\n\r\n}",
+  "sourcePath": "/mnt/d/Codigo/web-3.0/hello-blockchain/contracts/hello-blockchain.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/hello-blockchain.sol",
+    "exportedSymbols": {
+      "HelloBlockchain": [
+        43
+      ]
+    },
+    "id": 44,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 43,
+        "linearizedBaseContracts": [
+          43
+        ],
+        "name": "HelloBlockchain",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 41,
+              "nodeType": "Block",
+              "src": "166:47:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "2148656c6c6f2c20626c6f636b636861696e21",
+                    "id": 39,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "184:21:1",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_e9f2fc19227875155a710bbb48922e29e7b7207bf442dae699b5017057189a71",
+                      "typeString": "literal_string \"!Hello, blockchain!\""
+                    },
+                    "value": "!Hello, blockchain!"
+                  },
+                  "functionReturnParameters": 38,
+                  "id": 40,
+                  "nodeType": "Return",
+                  "src": "177:28:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 42,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "sayHi",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "127:2:1"
+            },
+            "returnParameters": {
+              "id": 38,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 37,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 42,
+                  "src": "151:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 36,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "151:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "150:15:1"
+            },
+            "scope": 43,
+            "src": "113:100:1",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 44,
+        "src": "75:143:1"
+      }
+    ],
+    "src": "39:179:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/hello-blockchain.sol",
+      "exportedSymbols": {
+        "HelloBlockchain": [
+          43
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 34,
+        "name": "PragmaDirective",
+        "src": "39:32:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            43
+          ],
+          "name": "HelloBlockchain",
+          "scope": 44
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "sayHi",
+              "scope": 43,
+              "stateMutability": "pure",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 35,
+                "name": "ParameterList",
+                "src": "127:2:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 42,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 36,
+                        "name": "ElementaryTypeName",
+                        "src": "151:6:1"
+                      }
+                    ],
+                    "id": 37,
+                    "name": "VariableDeclaration",
+                    "src": "151:13:1"
+                  }
+                ],
+                "id": 38,
+                "name": "ParameterList",
+                "src": "150:15:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 38
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "2148656c6c6f2c20626c6f636b636861696e21",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "string",
+                          "type": "literal_string \"!Hello, blockchain!\"",
+                          "value": "!Hello, blockchain!"
+                        },
+                        "id": 39,
+                        "name": "Literal",
+                        "src": "184:21:1"
+                      }
+                    ],
+                    "id": 40,
+                    "name": "Return",
+                    "src": "177:28:1"
+                  }
+                ],
+                "id": 41,
+                "name": "Block",
+                "src": "166:47:1"
+              }
+            ],
+            "id": 42,
+            "name": "FunctionDefinition",
+            "src": "113:100:1"
+          }
+        ],
+        "id": 43,
+        "name": "ContractDefinition",
+        "src": "75:143:1"
+      }
+    ],
+    "id": 44,
+    "name": "SourceUnit",
+    "src": "39:179:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "1636663721090": {
+      "events": {},
+      "links": {},
+      "address": "0x3DbeFab7Db41dCBcC1b22496c3E21f2C0f156C6f",
+      "transactionHash": "0xedf5fee8fb5556336b21d16ed464b9a27b5983cc5533ba36c99904b22819c6d7"
+    }
+  },
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-11-11T20:55:53.921Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
